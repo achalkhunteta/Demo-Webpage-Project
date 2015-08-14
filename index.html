@@ -1,0 +1,88 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<div class="wrapper">	
+		<div class="container">
+			<header>
+				<div id="logo">
+					<img src="/home/teramatrxi/Desktop/Website/Images/logo0108.png"> 
+				</div>
+
+				<div id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">About Us</a></li>
+						<li><a href="index.html">Blog</a></li>
+						<li><a href="index.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</header>
+
+			<div id="container_sl">
+				<div id="slider_wrapper">
+					<img id="img_1" src="/home/teramatrxi/Desktop/Website/Images/wwe1.jpg"/>
+					<img id="img_2" src="/home/teramatrxi/Desktop/Website/Images/wwe2.jpg"/>
+					<img id="img_3" src="/home/teramatrxi/Desktop/Website/Images/wwe3.jpg"/>
+					<img id="img_4" src="/home/teramatrxi/Desktop/Website/Images/wwe4.jpg"/>
+					<img id="img_5" src="/home/teramatrxi/Desktop/Website/Images/wwe5.jpg"/>
+					<img id="img_6" src="/home/teramatrxi/Desktop/Website/Images/wwe6.jpg"/>
+				</div>
+			</div>
+			
+			<div id="content_sl">
+				<div id= "marquee_container" >
+					<ul id="marquee" >
+						<li><a href="index.html">Latest News</a><li>
+						<li><a href="index.html">New Superstars</a><li>
+						<li><a href="index.html">Schedule</a><li>
+						<li><a href="index.html">Fan Page</a><li>
+						<li><a href="index.html">Latest Stats</a><li>
+					</ul>
+				</div>	
+			</div>
+
+			<div id="text_container">
+				<h1>WWE</h1>
+				<p>World Wrestling Entertainment, Inc. (WWE) is an American publicly traded, privately controlled entertainment company that deals primarily in professional wrestling, with major revenue sources also coming from film, music, product licensing and direct product sales. WWE also refers to the professional wrestling promotion itself, founded by Jess McMahon and Toots Mondt in 1952 as Capitol Wrestling Corporation. As of 2014, it is the largest wrestling promotion in the world, holding over 300 events a year, and broadcasting to about 36 million viewers in more than 150 countries. The company's headquarters are located in Stamford, Connecticut, with offices in New York City, Los Angeles, London, Shanghai, Tokyo, Singapore, Munich, Mumbai, and Mexico City.</p>
+
+				<p>As in other professional wrestling promotions, WWE shows are not legitimate contests, but purely entertainment-based, featuring storyline-driven, scripted, and choreographed matches, though they often include moves that can put performers at risk of injury if not performed correctly. This was first publicly acknowledged by WWE's owner Vince McMahon in 1989 to avoid taxes from athletic commissions. Since the 1980s, WWE publicly branded their product as sports entertainment, which is considered to acknowledge the product's roots in competitive sport and dramatic theater.</p>
+			</div>
+
+			<a href="#" class="scrollToTop"></a>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+	if (typeof jQuery == 'undefined'){
+		document.write('<script src="js/jquery-1.11.3.min.js">\x3C/script>')
+	}
+
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+	
+	sliderObj = {
+		dom_id : 'slider_wrapper', 
+		enable_pagination : true,
+		enable_arrows : true,
+		marquee: true,
+		timer : 1000,
+		leftArrowUrl : "arrowLeftGrey.png",
+		rightArrowUrl : "arrowRightGrey.png",
+	}
+	$(document).ready(function() {
+		slider_instance = new initMySlider(sliderObj);
+		slider_instance.runSlider();
+	}); 
+</script>
+
+
+</html>

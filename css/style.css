@@ -1,0 +1,251 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clearfix {
+    clear: both;
+}
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    position: relative;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+
+}
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/KaushanScript-Regular.otf);
+}
+
+
+header{
+	/*height: 12%;*/
+	width: 100%;
+	background-color: #000000
+}
+
+#logo img{
+	width: 10%;
+	float: left;
+	margin: 1%;
+}
+
+#nav ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav li {
+    float: left;
+    display: inline-block;
+}
+
+#nav a:link, #nav a:visited {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #E60000;
+}
+
+#nav{
+	display: inline-block;
+	float: right;
+	width: 80%;
+	height: 100%;
+	padding-top: 25px; 
+}
+
+#pagination{
+    width: 600px;
+    position: absolute;
+    margin-top: -62px;
+    z-index: 10;
+}
+
+#pagination_ul{
+    width: 60%;
+    margin: 0px auto;
+    padding: 0px 300px;
+
+}
+#pagination_ul li{
+    margin: 12px 12px;
+    display: inline-block;
+    height: 27px;
+    width: 28px;
+    border-radius: 25%;
+    background-color: #858585;
+    text-align: center;
+}
+#pagination_ul li a:link, #pagination_ul li a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#pagination_ul li a:hover{
+    color: #f00000;
+    text-decoration: none;
+}
+#pagination_ul li a:active{
+
+    color:#f00000;
+    text-decoration: none;
+}
+.pagination_higlight_box{
+    border: 3px solid #CC0000;
+}
+#content_sl #marquee{
+	background-color: #000000;
+	border: 2px solid #FF0000;
+	border-radius: 5px;
+	height: 200px;
+	width: 20%;
+    float: left;
+    margin: 250px auto 0px;
+}
+
+#content_sl a:link, #content_sl a:visited {
+    display: inline-block;
+    width: 120px;
+    color: #FFFFFF;
+    background-color: none;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+#content_sl a:hover, #content_sl a:active {
+    background-color: none;
+    color: #FF0000;
+}
+
+#content_sl ul {
+    padding: 0;
+    overflow: hidden;
+}
+
+#content_sl li{
+    text-align: center;
+}
+
+#container_sl{
+    width: 952px;
+    height: 400px;
+    border: 4px solid #FF0000;
+    border-top: 4px dashed #FF0000;
+    border-radius: 0px 0px  20px 20px; 
+    padding: 20px 20px 80px 20px;
+    background: #000000;
+    margin:  0px auto;
+    position: relative;
+}
+
+#text_container {
+    
+    height: 500px;
+    width: 70%;
+    float: right;
+    margin: 90px auto 0px;
+}
+#text_container h1{
+
+    font-family: Impact;
+    text-align: center;
+    font-size: 80px;
+    color: #000000;
+    text-shadow: -1px 0 #FF0000, 0 1px #FF0000, 1px 0 #FF0000, 0 -1px #FF0000;
+}
+
+#text_container p{
+    font-family: 'myFont';
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-indent: 50px;
+}
+
+
+#Slider_wrapper{ 
+    overflow: hidden;
+    height: 360px;
+    top: auto;
+    margin: 0px auto;
+}
+
+#imgSlider{
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    margin-left: 95px;
+}
+
+#imgSlider li{
+    position: absolute;
+    float: left;
+    /*margin: 0px auto;*/
+}
+#imgSlider img{
+    width: 100%;
+    top: 0px;
+    left: 0px;   
+}
+
+#prev{
+    float: left;
+    position: absolute;
+    margin-top: -100px;
+    height: 100%;
+    z-index: 10;
+    margin-left: 20px;   
+}
+
+#next{
+    float: right;
+    position: absolute;
+    margin-top: -100px;
+    height: 100%;
+    z-index: 10;
+    margin-left: 920px; 
+}
+.scrollToTop{
+    width:40px; 
+    height:100px;
+    padding:10px; 
+    position:fixed;
+    bottom: 0;
+    right:40px;
+    background: url('../images/top-button.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}

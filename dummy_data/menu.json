@@ -1,0 +1,37 @@
+[
+	{
+		"name" : "nav_home",
+		"title" : "Home",
+		"icon" : "",
+		"link" : "index.html",
+		"position" : 5
+	},
+	{
+		"name" : "nav_blog",
+		"title" : "Blog",
+		"icon" : "",
+		"link" : "index.html",
+		"position" : 2
+	},
+	{
+		"name" : "nav_about",
+		"title" : "About Us",
+		"icon" : "",
+		"link" : "index.html",
+		"position" : 3
+	},
+	{
+		"name" : "nav_gallery",
+		"title" : "Gallery",
+		"icon" : "",
+		"link" : "index.html",
+		"position" : 4
+	},
+	{
+		"name" : "nav_contact",
+		"title" : "Contact Us",
+		"icon" : "",
+		"link" : "index.html",
+		"position" : 1
+	}
+]
