@@ -35,7 +35,7 @@ function initMySlider(sliderObj)
 			div_items = wrapper_div.children;
 			numOfImg = div_items.length;
 			if(numOfImg > 0){
-				alert("Change Replicated !")
+				alert("Change Replicated Again :)")
 				sliderObj['enable_pagination'] ? initMySlider_that.activate_pagination() : console.log("Pagination is deactivated")
 				sliderObj['enable_arrows'] ? initMySlider_that.activate_arrows() : console.log("Arrows are deactivated")
 				sliderObj['timer'] ? user_plugin_timer = sliderObj.timer : user_plugin_timer = user_plugin_timer;
